@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+      height: 100vh;
+      overflow-x:hidden;
+      overflow-y:auto;
+      perspective: 10px;
+
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+
+
+}
+.background{
+    transform:translateZ(-40px) scale(5);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+.background, .foreground{
+position: absolute;
+height: 100%;
+width: 100%;
+
+object-fit: cover;
+z-index: -1;
+}
+h1{
+ position:relative ;
+ top:5rem;
+ 
+ letter-spacing: 4px;
+  font-size: 10rem;
+  color: black;
+  text-shadow:0 0 10px rgba(0, 0, 0,0.3);
+}
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding:5rem 0;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+
+
+}
+.bg{
+    position: relative;
+    width:100%;
+}
+.bg1{
+    background-image: url(https://www.armidaletouristpark.com.au/wp-content/uploads/mountain-biking.jpeg);
+}
+.bg2{
+      background-image:url(https://tse1.mm.bing.net/th?id=OIP.iqe4vx1Yg_NN81sRijkXEwHaE7&pid=Api&P=0&h=180);
+}
+
+.bg3{
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=AwrPrXfjLYhlxucM27O9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzMwNzVhOWM2MTUxNTE4NWYxNGJjYjA4MDhhZWZkODE2BGdwb3MDMTgEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dsurfing%26type%3DE210IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D18&w=2732&h=1537&imgurl=www.gannett-cdn.com%2Fpresto%2F2020%2F09%2F13%2FUSAT%2F19206277-e78d-4364-ad49-7cdce599a4fe-surfing.JPG%3Fcrop%3D2732%2C1537%2Cx44%2Cy205%26width%3D2732%26height%3D1537%26format%3Dpjpg%26auto%3Dwebp&rurl=https%3A%2F%2Fwww.usatoday.com%2Fstory%2Fsports%2Folympics%2F2020%2F09%2F14%2Fu-s-olympic-surf-team-make-waves-texas-tokyo-games%2F5780059002%2F&size=955.8KB&p=surfing&oid=3075a9c61515185f14bcb0808aefd816&fr2=piv-web&fr=mcafee&tt=U.S.+Olympic+surf+team+will+make+waves+in+Texas+prepping+for+Tokyo&b=0&ni=21&no=18&ts=&tab=organic&sigr=_JPGt6rnijv6&sigb=R6oDxOx9.S.u&sigi=3viWzpBwrCGN&sigt=3ryk.rAKYR5S&.crumb=9f4ShnGPAxM&fr=mcafee&fr2=piv-web&type=E210IN826G0);
+}
